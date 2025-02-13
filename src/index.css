@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "space";
+    src: url("/fonts/space-grotesk_5.0.16_latin-300-normal.woff2");
+    font-weight: bolder;
+    font-style: normal;
+}
+
+body {
+    font-family: "space";
+}
