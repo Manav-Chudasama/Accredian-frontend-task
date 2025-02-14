@@ -2,6 +2,8 @@
 
 A modern, responsive React application for managing course referrals with smooth animations and an intuitive user interface.
 
+![image alt](https://github.com/Manav-Chudasama/Accredian-frontend-task/blob/7ccd0ff76a0cd7dc0efcecc2c94a4af04ae8068c/Screenshot%202025-02-14%20183540.png)
+
 ## 🚀 Features
 
 - Modern UI with Framer Motion animations
