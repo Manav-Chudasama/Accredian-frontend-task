@@ -85,11 +85,11 @@ const Hero = ({ onReferClick }) => {
                   className="text-center"
                 >
                   <div className="text-3xl font-bold text-purple-600">
-                    {stats.users.totalUniqueUsers}
+                    {stats.users.uniqueReferrers}
                   </div>
                   <div className="text-gray-600">Active Users</div>
                 </motion.div>
-                
+
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
