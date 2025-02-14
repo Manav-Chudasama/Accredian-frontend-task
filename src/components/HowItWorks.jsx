@@ -33,7 +33,7 @@ const steps = [
   },
 ];
 
-const HowItWorks = () => {
+const HowItWorks = ({ onReferClick }) => {
   return (
     <section
       id="how-it-works"
@@ -100,11 +100,11 @@ const HowItWorks = () => {
 
             {steps.map((step, index) => (
               <FadeIn key={index} delay={0.2 * (index + 1)} direction="up">
-                <div className="relative">
+                <div className="relative !h-full">
                   {/* Step Card */}
                   <motion.div
                     whileHover={{ y: -5 }}
-                    className="relative bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 z-10"
+                    className="relative bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 z-10 h-full"
                   >
                     {/* Step Number with Animation */}
                     <motion.div
@@ -185,7 +185,7 @@ const HowItWorks = () => {
 
           {/* Call to Action */}
           <FadeIn delay={1.2}>
-            <div className="mt-16 text-center">
+            <div className="mt-16 text-center" onClick={onReferClick}>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

@@ -7,8 +7,8 @@ const benefits = [
     icon: "💎",
     title: "Cash Rewards",
     description:
-      "Earn up to $100 for each successful referral who completes a course",
-    stats: "$100",
+      "Earn up to ₹100 for each successful referral who completes a course",
+    stats: "₹100",
     statsLabel: "Per Referral",
     color: "from-purple-600 to-indigo-600",
     highlight: "Instant Payouts",

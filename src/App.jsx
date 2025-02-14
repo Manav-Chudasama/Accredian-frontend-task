@@ -46,7 +46,7 @@ const App = () => {
       <AnimatePresence>
         <Navbar onReferClick={handleReferClick} />
         <Hero onReferClick={handleReferClick} />
-        <HowItWorks />
+        <HowItWorks onReferClick={handleReferClick} />
         <Benefits />
         <PopularCourses />
         <Testimonials />

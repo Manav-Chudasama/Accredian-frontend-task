@@ -8,8 +8,8 @@ const testimonials = [
     role: "Web Developer",
     image: "images/testi2.jpg",
     quote:
-      "Thanks to the referral program, I earned over $500 in rewards while helping my friends start their coding journey. It's a win-win!",
-    reward: "$500 in Cash Rewards",
+      "Thanks to the referral program, I earned over ₹500 in rewards while helping my friends start their coding journey. It's a win-win!",
+    reward: "₹500 in Cash Rewards",
     company: "Google",
     companyLogo: "/company-logos/google.png",
   },

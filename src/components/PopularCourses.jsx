@@ -16,11 +16,11 @@ const courses = [
     title: "Web Development Bootcamp",
     description:
       "Learn full-stack web development from scratch with modern technologies",
-    price: "$99",
+    price: "₹9900",
     duration: "12 weeks",
     instructor: {
       name: "John Smith",
-      avatar: "/avatars/instructor-1.jpg",
+      avatar: "images/testi1.jpg",
       role: "Senior Developer",
     },
     stats: {
@@ -34,11 +34,11 @@ const courses = [
     category: "Data Science",
     title: "Data Science Fundamentals",
     description: "Master the basics of data science and analytics with Python",
-    price: "$89",
+    price: "₹8900",
     duration: "8 weeks",
     instructor: {
       name: "Sarah Johnson",
-      avatar: "/avatars/instructor-2.jpg",
+      avatar: "images/testi2.jpg",
       role: "Data Scientist",
     },
     stats: {
@@ -53,11 +53,11 @@ const courses = [
     title: "UI/UX Design Masterclass",
     description:
       "Create beautiful and functional user interfaces with modern design principles",
-    price: "$79",
+    price: "₹7900",
     duration: "6 weeks",
     instructor: {
       name: "Mike Chen",
-      avatar: "/avatars/instructor-3.jpg",
+      avatar: "images/testi1.jpg",
       role: "UX Designer",
     },
     stats: {
@@ -72,11 +72,11 @@ const courses = [
     title: "Digital Marketing Strategy",
     description:
       "Learn modern digital marketing strategies and growth techniques",
-    price: "$69",
+    price: "₹6900",
     duration: "4 weeks",
     instructor: {
       name: "Emily Rodriguez",
-      avatar: "/avatars/instructor-4.jpg",
+      avatar: "images/testi2.jpg",
       role: "Marketing Expert",
     },
     stats: {
@@ -90,11 +90,11 @@ const courses = [
     category: "Development",
     title: "Mobile App Development",
     description: "Build iOS and Android apps with React Native",
-    price: "$89",
+    price: "₹8900",
     duration: "10 weeks",
     instructor: {
       name: "David Kim",
-      avatar: "/avatars/instructor-5.jpg",
+      avatar: "images/testi1.jpg",
       role: "Mobile Developer",
     },
     stats: {
